@@ -1,0 +1,1609 @@
+[kbplacer_plugin_action.py:63]: Plugin version: 0.10
+[kbplacer_plugin_action.py:64]: Python version: '3.12.4 (main, Jun  7 2024, 00:00:00) [GCC 14.1.1 20240607 (Red Hat 14.1.1-5)]'
+[kbplacer_plugin_action.py:65]: KiCad version: 8.0.3 with 4.2.1 gtk3 (phoenix) wxWidgets 3.2.4
+[kbplacer_dialog.py:584]: Language: en
+[kbplacer_plugin_action.py:76]: GUI state: {"layout_path": "/home/scott/Documents/custom-keyboard/layout_json.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "S{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": true, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Custom", "position": {"x": 1.0, "y": -5.1, "orientation": 180.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:299]: Set key 1U distance: 19050000/19050000
+[key_placer.py:112]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'ROW5', 'COL15'}): ['S84'], frozenset({'COL14', 'ROW5'}): ['S83'], frozenset({'COL13', 'ROW5'}): ['S82'], frozenset({'COL11', 'ROW5'}): ['S81'], frozenset({'COL10', 'ROW5'}): ['S80'], frozenset({'COL6', 'ROW5'}): ['S79'], frozenset({'COL3', 'ROW5'}): ['S78'], frozenset({'COL2', 'ROW5'}): ['S77'], frozenset({'COL1', 'ROW5'}): ['S76'], frozenset({'COL0', 'ROW5'}): ['S75'], frozenset({'ROW4', 'COL15'}): ['S74'], frozenset({'COL14', 'ROW4'}): ['S73'], frozenset({'ROW4', 'COL13'}): ['S72'], frozenset({'ROW4', 'COL11'}): ['S71'], frozenset({'ROW4', 'COL10'}): ['S70'], frozenset({'COL9', 'ROW4'}): ['S69'], frozenset({'ROW4', 'COL8'}): ['S68'], frozenset({'ROW4', 'COL7'}): ['S67'], frozenset({'ROW4', 'COL6'}): ['S66'], frozenset({'ROW4', 'COL5'}): ['S65'], frozenset({'COL4', 'ROW4'}): ['S64'], frozenset({'ROW4', 'COL3'}): ['S63'], frozenset({'COL2', 'ROW4'}): ['S62'], frozenset({'COL1', 'ROW4'}): ['S61'], frozenset({'ROW3', 'COL15'}): ['S60'], frozenset({'COL13', 'ROW3'}): ['S59'], frozenset({'COL12', 'ROW3'}): ['S58'], frozenset({'COL11', 'ROW3'}): ['S57'], frozenset({'COL10', 'ROW3'}): ['S56'], frozenset({'COL9', 'ROW3'}): ['S55'], frozenset({'COL8', 'ROW3'}): ['S54'], frozenset({'COL7', 'ROW3'}): ['S53'], frozenset({'COL6', 'ROW3'}): ['S52'], frozenset({'COL5', 'ROW3'}): ['S51'], frozenset({'COL4', 'ROW3'}): ['S50'], frozenset({'COL3', 'ROW3'}): ['S49'], frozenset({'COL2', 'ROW3'}): ['S48'], frozenset({'COL0', 'ROW3'}): ['S47'], frozenset({'ROW2', 'COL15'}): ['S46'], frozenset({'COL14', 'ROW2'}): ['S45'], frozenset({'COL13', 'ROW2'}): ['S44'], frozenset({'COL12', 'ROW2'}): ['S43'], frozenset({'COL11', 'ROW2'}): ['S42'], frozenset({'COL10', 'ROW2'}): ['S41'], frozenset({'COL9', 'ROW2'}): ['S40'], frozenset({'COL8', 'ROW2'}): ['S39'], frozenset({'COL7', 'ROW2'}): ['S38'], frozenset({'COL6', 'ROW2'}): ['S37'], frozenset({'COL5', 'ROW2'}): ['S36'], frozenset({'COL4', 'ROW2'}): ['S35'], frozenset({'COL3', 'ROW2'}): ['S34'], frozenset({'COL2', 'ROW2'}): ['S33'], frozenset({'COL0', 'ROW2'}): ['S32'], frozenset({'ROW1', 'COL15'}): ['S31'], frozenset({'COL14', 'ROW1'}): ['S30'], frozenset({'ROW1', 'COL12'}): ['S29'], frozenset({'ROW1', 'COL11'}): ['S28'], frozenset({'ROW1', 'COL10'}): ['S27'], frozenset({'COL9', 'ROW1'}): ['S26'], frozenset({'ROW1', 'COL8'}): ['S25'], frozenset({'ROW1', 'COL7'}): ['S24'], frozenset({'ROW1', 'COL6'}): ['S23'], frozenset({'ROW1', 'COL5'}): ['S22'], frozenset({'COL4', 'ROW1'}): ['S21'], frozenset({'ROW1', 'COL3'}): ['S20'], frozenset({'COL2', 'ROW1'}): ['S19'], frozenset({'COL1', 'ROW1'}): ['S18'], frozenset({'COL0', 'ROW1'}): ['S17'], frozenset({'ROW0', 'COL15'}): ['S16'], frozenset({'COL14', 'ROW0'}): ['S15'], frozenset({'ROW0', 'COL13'}): ['S14'], frozenset({'ROW0', 'COL12'}): ['S13'], frozenset({'ROW0', 'COL11'}): ['S12'], frozenset({'ROW0', 'COL10'}): ['S11'], frozenset({'COL9', 'ROW0'}): ['S10'], frozenset({'ROW0', 'COL8'}): ['S9'], frozenset({'ROW0', 'COL7'}): ['S8'], frozenset({'ROW0', 'COL6'}): ['S7'], frozenset({'ROW0', 'COL5'}): ['S6'], frozenset({'COL4', 'ROW0'}): ['S5'], frozenset({'ROW0', 'COL3'}): ['S4'], frozenset({'COL2', 'ROW0'}): ['S3'], frozenset({'COL1', 'ROW0'}): ['S2'], frozenset({'COL0', 'ROW0'}): ['S1']})
+[key_placer.py:116]: Diodes by switch: {'S84': ['D84'], 'S83': ['D83'], 'S82': ['D82'], 'S81': ['D81'], 'S80': ['D80'], 'S79': ['D79'], 'S78': ['D78'], 'S77': ['D77'], 'S76': ['D76'], 'S75': ['D75'], 'S74': ['D74'], 'S73': ['D73'], 'S72': ['D72'], 'S71': ['D71'], 'S70': ['D70'], 'S69': ['D69'], 'S68': ['D68'], 'S67': ['D67'], 'S66': ['D66'], 'S65': ['D65'], 'S64': ['D64'], 'S63': ['D63'], 'S62': ['D62'], 'S61': ['D61'], 'S60': ['D60'], 'S59': ['D59'], 'S58': ['D58'], 'S57': ['D57'], 'S56': ['D56'], 'S55': ['D55'], 'S54': ['D54'], 'S53': ['D53'], 'S52': ['D52'], 'S51': ['D51'], 'S50': ['D50'], 'S49': ['D49'], 'S48': ['D48'], 'S47': ['D47'], 'S46': ['D46'], 'S45': ['D45'], 'S44': ['D44'], 'S43': ['D43'], 'S42': ['D42'], 'S41': ['D41'], 'S40': ['D40'], 'S39': ['D39'], 'S38': ['D38'], 'S37': ['D37'], 'S36': ['D36'], 'S35': ['D35'], 'S34': ['D34'], 'S33': ['D33'], 'S32': ['D32'], 'S31': ['D31'], 'S30': ['D30'], 'S29': ['D29'], 'S28': ['D28'], 'S27': ['D27'], 'S26': ['D26'], 'S25': ['D25'], 'S24': ['D24'], 'S23': ['D23'], 'S22': ['D22'], 'S21': ['D21'], 'S20': ['D20'], 'S19': ['D19'], 'S18': ['D18'], 'S17': ['D17'], 'S16': ['D16'], 'S15': ['D15'], 'S14': ['D14'], 'S13': ['D13'], 'S12': ['D12'], 'S11': ['D11'], 'S10': ['D10'], 'S9': ['D9'], 'S8': ['D8'], 'S7': ['D7'], 'S6': ['D6'], 'S5': ['D5'], 'S4': ['D4'], 'S3': ['D3'], 'S2': ['D2'], 'S1': ['D1']}
+[kle_serial.py:749]: User layout: [[{'a': 6}, 'Esc', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12', {'a': 5}, 'PrtSc\nNmLk', 'Pause\nScrLk', 'Delete\nInsert'], [{'a': 4}, '~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'a': 6, 'w': 2}, 'Backspace', 'Home'], [{'a': 4, 'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\', {'a': 6}, 'Page Up'], [{'a': 4, 'w': 1.75}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'a': 6, 'w': 2.25}, 'Enter', 'Page Down'], [{'w': 2.25}, 'Shift', {'a': 4}, 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'a': 6, 'w': 1.75}, 'Shift', {'a': 7}, '↑', {'a': 6}, 'End'], ['Fn', 'Ctrl', 'Option', {'w': 1.25}, 'Cmd', {'a': 7, 'w': 6.25}, '', {'a': 6, 'w': 1.25}, 'Cmd', 'Option', {'x': 0.25, 'a': 7}, '←', '↓', '→']]
+[key_placer.py:595]: Layout offset: (28575000, 28575000)
+[board_modifier.py:83]: Setting S1 footprint position: (38100000, 38100000)
+[board_modifier.py:83]: Setting S2 footprint position: (57150000, 38100000)
+[board_modifier.py:83]: Setting S3 footprint position: (76200000, 38100000)
+[board_modifier.py:83]: Setting S4 footprint position: (95250000, 38100000)
+[board_modifier.py:83]: Setting S5 footprint position: (114300000, 38100000)
+[board_modifier.py:83]: Setting S6 footprint position: (133350000, 38100000)
+[board_modifier.py:83]: Setting S7 footprint position: (152400000, 38100000)
+[board_modifier.py:83]: Setting S8 footprint position: (171450000, 38100000)
+[board_modifier.py:83]: Setting S9 footprint position: (190500000, 38100000)
+[board_modifier.py:83]: Setting S10 footprint position: (209550000, 38100000)
+[board_modifier.py:83]: Setting S11 footprint position: (228600000, 38100000)
+[board_modifier.py:83]: Setting S12 footprint position: (247650000, 38100000)
+[board_modifier.py:83]: Setting S13 footprint position: (266700000, 38100000)
+[board_modifier.py:83]: Setting S14 footprint position: (285750000, 38100000)
+[board_modifier.py:83]: Setting S15 footprint position: (304800000, 38100000)
+[board_modifier.py:83]: Setting S16 footprint position: (323850000, 38100000)
+[board_modifier.py:83]: Setting S17 footprint position: (38100000, 57150000)
+[board_modifier.py:83]: Setting S18 footprint position: (57150000, 57150000)
+[board_modifier.py:83]: Setting S19 footprint position: (76200000, 57150000)
+[board_modifier.py:83]: Setting S20 footprint position: (95250000, 57150000)
+[board_modifier.py:83]: Setting S21 footprint position: (114300000, 57150000)
+[board_modifier.py:83]: Setting S22 footprint position: (133350000, 57150000)
+[board_modifier.py:83]: Setting S23 footprint position: (152400000, 57150000)
+[board_modifier.py:83]: Setting S24 footprint position: (171450000, 57150000)
+[board_modifier.py:83]: Setting S25 footprint position: (190500000, 57150000)
+[board_modifier.py:83]: Setting S26 footprint position: (209550000, 57150000)
+[board_modifier.py:83]: Setting S27 footprint position: (228600000, 57150000)
+[board_modifier.py:83]: Setting S28 footprint position: (247650000, 57150000)
+[board_modifier.py:83]: Setting S29 footprint position: (266700000, 57150000)
+[board_modifier.py:83]: Setting S30 footprint position: (295275000, 57150000)
+[board_modifier.py:83]: Setting S31 footprint position: (323850000, 57150000)
+[board_modifier.py:83]: Setting S32 footprint position: (42862500, 76200000)
+[board_modifier.py:83]: Setting S33 footprint position: (66675000, 76200000)
+[board_modifier.py:83]: Setting S34 footprint position: (85725000, 76200000)
+[board_modifier.py:83]: Setting S35 footprint position: (104775000, 76200000)
+[board_modifier.py:83]: Setting S36 footprint position: (123825000, 76200000)
+[board_modifier.py:83]: Setting S37 footprint position: (142875000, 76200000)
+[board_modifier.py:83]: Setting S38 footprint position: (161925000, 76200000)
+[board_modifier.py:83]: Setting S39 footprint position: (180975000, 76200000)
+[board_modifier.py:83]: Setting S40 footprint position: (200025000, 76200000)
+[board_modifier.py:83]: Setting S41 footprint position: (219075000, 76200000)
+[board_modifier.py:83]: Setting S42 footprint position: (238125000, 76200000)
+[board_modifier.py:83]: Setting S43 footprint position: (257175000, 76200000)
+[board_modifier.py:83]: Setting S44 footprint position: (276225000, 76200000)
+[board_modifier.py:83]: Setting S45 footprint position: (300037500, 76200000)
+[board_modifier.py:83]: Setting S46 footprint position: (323850000, 76200000)
+[board_modifier.py:83]: Setting S47 footprint position: (45243750, 95250000)
+[board_modifier.py:83]: Setting S48 footprint position: (71437500, 95250000)
+[board_modifier.py:83]: Setting S49 footprint position: (90487500, 95250000)
+[board_modifier.py:83]: Setting S50 footprint position: (109537500, 95250000)
+[board_modifier.py:83]: Setting S51 footprint position: (128587500, 95250000)
+[board_modifier.py:83]: Setting S52 footprint position: (147637500, 95250000)
+[board_modifier.py:83]: Setting S53 footprint position: (166687500, 95250000)
+[board_modifier.py:83]: Setting S54 footprint position: (185737500, 95250000)
+[board_modifier.py:83]: Setting S55 footprint position: (204787500, 95250000)
+[board_modifier.py:83]: Setting S56 footprint position: (223837500, 95250000)
+[board_modifier.py:83]: Setting S57 footprint position: (242887500, 95250000)
+[board_modifier.py:83]: Setting S58 footprint position: (261937500, 95250000)
+[board_modifier.py:83]: Setting S59 footprint position: (292893750, 95250000)
+[board_modifier.py:83]: Setting S60 footprint position: (323850000, 95250000)
+[board_modifier.py:83]: Setting S61 footprint position: (50006250, 114300000)
+[board_modifier.py:83]: Setting S62 footprint position: (80962500, 114300000)
+[board_modifier.py:83]: Setting S63 footprint position: (100012500, 114300000)
+[board_modifier.py:83]: Setting S64 footprint position: (119062500, 114300000)
+[board_modifier.py:83]: Setting S65 footprint position: (138112500, 114300000)
+[board_modifier.py:83]: Setting S66 footprint position: (157162500, 114300000)
+[board_modifier.py:83]: Setting S67 footprint position: (176212500, 114300000)
+[board_modifier.py:83]: Setting S68 footprint position: (195262500, 114300000)
+[board_modifier.py:83]: Setting S69 footprint position: (214312500, 114300000)
+[board_modifier.py:83]: Setting S70 footprint position: (233362500, 114300000)
+[board_modifier.py:83]: Setting S71 footprint position: (252412500, 114300000)
+[board_modifier.py:83]: Setting S72 footprint position: (278606250, 114300000)
+[board_modifier.py:83]: Setting S73 footprint position: (304800000, 114300000)
+[board_modifier.py:83]: Setting S74 footprint position: (323850000, 114300000)
+[board_modifier.py:83]: Setting S75 footprint position: (38100000, 133350000)
+[board_modifier.py:83]: Setting S76 footprint position: (57150000, 133350000)
+[board_modifier.py:83]: Setting S77 footprint position: (76200000, 133350000)
+[board_modifier.py:83]: Setting S78 footprint position: (97631250, 133350000)
+[board_modifier.py:83]: Setting S79 footprint position: (169068750, 133350000)
+[board_modifier.py:83]: Setting S80 footprint position: (240506250, 133350000)
+[board_modifier.py:83]: Setting S81 footprint position: (261937500, 133350000)
+[board_modifier.py:83]: Setting S82 footprint position: (285750000, 133350000)
+[board_modifier.py:83]: Setting S83 footprint position: (304800000, 133350000)
+[board_modifier.py:83]: Setting S84 footprint position: (323850000, 133350000)
+[key_placer.py:907]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+[board_modifier.py:96]: Getting S1 footprint position: (38100000, 38100000)
+[board_modifier.py:83]: Setting D1 footprint position: (33020000, 35070000)
+[board_modifier.py:96]: Getting D1 footprint position: (33020000, 35070000)
+[board_modifier.py:96]: Getting S10 footprint position: (209550000, 38100000)
+[board_modifier.py:83]: Setting D10 footprint position: (204470000, 35070000)
+[board_modifier.py:96]: Getting D10 footprint position: (204470000, 35070000)
+[board_modifier.py:96]: Getting S11 footprint position: (228600000, 38100000)
+[board_modifier.py:83]: Setting D11 footprint position: (223520000, 35070000)
+[board_modifier.py:96]: Getting D11 footprint position: (223520000, 35070000)
+[board_modifier.py:96]: Getting S12 footprint position: (247650000, 38100000)
+[board_modifier.py:83]: Setting D12 footprint position: (242570000, 35070000)
+[board_modifier.py:96]: Getting D12 footprint position: (242570000, 35070000)
+[board_modifier.py:96]: Getting S13 footprint position: (266700000, 38100000)
+[board_modifier.py:83]: Setting D13 footprint position: (261620000, 35070000)
+[board_modifier.py:96]: Getting D13 footprint position: (261620000, 35070000)
+[board_modifier.py:96]: Getting S14 footprint position: (285750000, 38100000)
+[board_modifier.py:83]: Setting D14 footprint position: (280670000, 35070000)
+[board_modifier.py:96]: Getting D14 footprint position: (280670000, 35070000)
+[board_modifier.py:96]: Getting S15 footprint position: (304800000, 38100000)
+[board_modifier.py:83]: Setting D15 footprint position: (299720000, 35070000)
+[board_modifier.py:96]: Getting D15 footprint position: (299720000, 35070000)
+[board_modifier.py:96]: Getting S16 footprint position: (323850000, 38100000)
+[board_modifier.py:83]: Setting D16 footprint position: (318770000, 35070000)
+[board_modifier.py:96]: Getting D16 footprint position: (318770000, 35070000)
+[board_modifier.py:96]: Getting S17 footprint position: (38100000, 57150000)
+[board_modifier.py:83]: Setting D17 footprint position: (33020000, 54120000)
+[board_modifier.py:96]: Getting D17 footprint position: (33020000, 54120000)
+[board_modifier.py:96]: Getting S18 footprint position: (57150000, 57150000)
+[board_modifier.py:83]: Setting D18 footprint position: (52070000, 54120000)
+[board_modifier.py:96]: Getting D18 footprint position: (52070000, 54120000)
+[board_modifier.py:96]: Getting S19 footprint position: (76200000, 57150000)
+[board_modifier.py:83]: Setting D19 footprint position: (71120000, 54120000)
+[board_modifier.py:96]: Getting D19 footprint position: (71120000, 54120000)
+[board_modifier.py:96]: Getting S2 footprint position: (57150000, 38100000)
+[board_modifier.py:83]: Setting D2 footprint position: (52070000, 35070000)
+[board_modifier.py:96]: Getting D2 footprint position: (52070000, 35070000)
+[board_modifier.py:96]: Getting S20 footprint position: (95250000, 57150000)
+[board_modifier.py:83]: Setting D20 footprint position: (90170000, 54120000)
+[board_modifier.py:96]: Getting D20 footprint position: (90170000, 54120000)
+[board_modifier.py:96]: Getting S21 footprint position: (114300000, 57150000)
+[board_modifier.py:83]: Setting D21 footprint position: (109220000, 54120000)
+[board_modifier.py:96]: Getting D21 footprint position: (109220000, 54120000)
+[board_modifier.py:96]: Getting S22 footprint position: (133350000, 57150000)
+[board_modifier.py:83]: Setting D22 footprint position: (128270000, 54120000)
+[board_modifier.py:96]: Getting D22 footprint position: (128270000, 54120000)
+[board_modifier.py:96]: Getting S23 footprint position: (152400000, 57150000)
+[board_modifier.py:83]: Setting D23 footprint position: (147320000, 54120000)
+[board_modifier.py:96]: Getting D23 footprint position: (147320000, 54120000)
+[board_modifier.py:96]: Getting S24 footprint position: (171450000, 57150000)
+[board_modifier.py:83]: Setting D24 footprint position: (166370000, 54120000)
+[board_modifier.py:96]: Getting D24 footprint position: (166370000, 54120000)
+[board_modifier.py:96]: Getting S25 footprint position: (190500000, 57150000)
+[board_modifier.py:83]: Setting D25 footprint position: (185420000, 54120000)
+[board_modifier.py:96]: Getting D25 footprint position: (185420000, 54120000)
+[board_modifier.py:96]: Getting S26 footprint position: (209550000, 57150000)
+[board_modifier.py:83]: Setting D26 footprint position: (204470000, 54120000)
+[board_modifier.py:96]: Getting D26 footprint position: (204470000, 54120000)
+[board_modifier.py:96]: Getting S27 footprint position: (228600000, 57150000)
+[board_modifier.py:83]: Setting D27 footprint position: (223520000, 54120000)
+[board_modifier.py:96]: Getting D27 footprint position: (223520000, 54120000)
+[board_modifier.py:96]: Getting S28 footprint position: (247650000, 57150000)
+[board_modifier.py:83]: Setting D28 footprint position: (242570000, 54120000)
+[board_modifier.py:96]: Getting D28 footprint position: (242570000, 54120000)
+[board_modifier.py:96]: Getting S29 footprint position: (266700000, 57150000)
+[board_modifier.py:83]: Setting D29 footprint position: (261620000, 54120000)
+[board_modifier.py:96]: Getting D29 footprint position: (261620000, 54120000)
+[board_modifier.py:96]: Getting S3 footprint position: (76200000, 38100000)
+[board_modifier.py:83]: Setting D3 footprint position: (71120000, 35070000)
+[board_modifier.py:96]: Getting D3 footprint position: (71120000, 35070000)
+[board_modifier.py:96]: Getting S30 footprint position: (295275000, 57150000)
+[board_modifier.py:83]: Setting D30 footprint position: (290195000, 54120000)
+[board_modifier.py:96]: Getting D30 footprint position: (290195000, 54120000)
+[board_modifier.py:96]: Getting S31 footprint position: (323850000, 57150000)
+[board_modifier.py:83]: Setting D31 footprint position: (318770000, 54120000)
+[board_modifier.py:96]: Getting D31 footprint position: (318770000, 54120000)
+[board_modifier.py:96]: Getting S32 footprint position: (42862500, 76200000)
+[board_modifier.py:83]: Setting D32 footprint position: (37782500, 73170000)
+[board_modifier.py:96]: Getting D32 footprint position: (37782500, 73170000)
+[board_modifier.py:96]: Getting S33 footprint position: (66675000, 76200000)
+[board_modifier.py:83]: Setting D33 footprint position: (61595000, 73170000)
+[board_modifier.py:96]: Getting D33 footprint position: (61595000, 73170000)
+[board_modifier.py:96]: Getting S34 footprint position: (85725000, 76200000)
+[board_modifier.py:83]: Setting D34 footprint position: (80645000, 73170000)
+[board_modifier.py:96]: Getting D34 footprint position: (80645000, 73170000)
+[board_modifier.py:96]: Getting S35 footprint position: (104775000, 76200000)
+[board_modifier.py:83]: Setting D35 footprint position: (99695000, 73170000)
+[board_modifier.py:96]: Getting D35 footprint position: (99695000, 73170000)
+[board_modifier.py:96]: Getting S36 footprint position: (123825000, 76200000)
+[board_modifier.py:83]: Setting D36 footprint position: (118745000, 73170000)
+[board_modifier.py:96]: Getting D36 footprint position: (118745000, 73170000)
+[board_modifier.py:96]: Getting S37 footprint position: (142875000, 76200000)
+[board_modifier.py:83]: Setting D37 footprint position: (137795000, 73170000)
+[board_modifier.py:96]: Getting D37 footprint position: (137795000, 73170000)
+[board_modifier.py:96]: Getting S38 footprint position: (161925000, 76200000)
+[board_modifier.py:83]: Setting D38 footprint position: (156845000, 73170000)
+[board_modifier.py:96]: Getting D38 footprint position: (156845000, 73170000)
+[board_modifier.py:96]: Getting S39 footprint position: (180975000, 76200000)
+[board_modifier.py:83]: Setting D39 footprint position: (175895000, 73170000)
+[board_modifier.py:96]: Getting D39 footprint position: (175895000, 73170000)
+[board_modifier.py:96]: Getting S4 footprint position: (95250000, 38100000)
+[board_modifier.py:83]: Setting D4 footprint position: (90170000, 35070000)
+[board_modifier.py:96]: Getting D4 footprint position: (90170000, 35070000)
+[board_modifier.py:96]: Getting S40 footprint position: (200025000, 76200000)
+[board_modifier.py:83]: Setting D40 footprint position: (194945000, 73170000)
+[board_modifier.py:96]: Getting D40 footprint position: (194945000, 73170000)
+[board_modifier.py:96]: Getting S41 footprint position: (219075000, 76200000)
+[board_modifier.py:83]: Setting D41 footprint position: (213995000, 73170000)
+[board_modifier.py:96]: Getting D41 footprint position: (213995000, 73170000)
+[board_modifier.py:96]: Getting S42 footprint position: (238125000, 76200000)
+[board_modifier.py:83]: Setting D42 footprint position: (233045000, 73170000)
+[board_modifier.py:96]: Getting D42 footprint position: (233045000, 73170000)
+[board_modifier.py:96]: Getting S43 footprint position: (257175000, 76200000)
+[board_modifier.py:83]: Setting D43 footprint position: (252095000, 73170000)
+[board_modifier.py:96]: Getting D43 footprint position: (252095000, 73170000)
+[board_modifier.py:96]: Getting S44 footprint position: (276225000, 76200000)
+[board_modifier.py:83]: Setting D44 footprint position: (271145000, 73170000)
+[board_modifier.py:96]: Getting D44 footprint position: (271145000, 73170000)
+[board_modifier.py:96]: Getting S45 footprint position: (300037500, 76200000)
+[board_modifier.py:83]: Setting D45 footprint position: (294957500, 73170000)
+[board_modifier.py:96]: Getting D45 footprint position: (294957500, 73170000)
+[board_modifier.py:96]: Getting S46 footprint position: (323850000, 76200000)
+[board_modifier.py:83]: Setting D46 footprint position: (318770000, 73170000)
+[board_modifier.py:96]: Getting D46 footprint position: (318770000, 73170000)
+[board_modifier.py:96]: Getting S47 footprint position: (45243750, 95250000)
+[board_modifier.py:83]: Setting D47 footprint position: (40163750, 92220000)
+[board_modifier.py:96]: Getting D47 footprint position: (40163750, 92220000)
+[board_modifier.py:96]: Getting S48 footprint position: (71437500, 95250000)
+[board_modifier.py:83]: Setting D48 footprint position: (66357500, 92220000)
+[board_modifier.py:96]: Getting D48 footprint position: (66357500, 92220000)
+[board_modifier.py:96]: Getting S49 footprint position: (90487500, 95250000)
+[board_modifier.py:83]: Setting D49 footprint position: (85407500, 92220000)
+[board_modifier.py:96]: Getting D49 footprint position: (85407500, 92220000)
+[board_modifier.py:96]: Getting S5 footprint position: (114300000, 38100000)
+[board_modifier.py:83]: Setting D5 footprint position: (109220000, 35070000)
+[board_modifier.py:96]: Getting D5 footprint position: (109220000, 35070000)
+[board_modifier.py:96]: Getting S50 footprint position: (109537500, 95250000)
+[board_modifier.py:83]: Setting D50 footprint position: (104457500, 92220000)
+[board_modifier.py:96]: Getting D50 footprint position: (104457500, 92220000)
+[board_modifier.py:96]: Getting S51 footprint position: (128587500, 95250000)
+[board_modifier.py:83]: Setting D51 footprint position: (123507500, 92220000)
+[board_modifier.py:96]: Getting D51 footprint position: (123507500, 92220000)
+[board_modifier.py:96]: Getting S52 footprint position: (147637500, 95250000)
+[board_modifier.py:83]: Setting D52 footprint position: (142557500, 92220000)
+[board_modifier.py:96]: Getting D52 footprint position: (142557500, 92220000)
+[board_modifier.py:96]: Getting S53 footprint position: (166687500, 95250000)
+[board_modifier.py:83]: Setting D53 footprint position: (161607500, 92220000)
+[board_modifier.py:96]: Getting D53 footprint position: (161607500, 92220000)
+[board_modifier.py:96]: Getting S54 footprint position: (185737500, 95250000)
+[board_modifier.py:83]: Setting D54 footprint position: (180657500, 92220000)
+[board_modifier.py:96]: Getting D54 footprint position: (180657500, 92220000)
+[board_modifier.py:96]: Getting S55 footprint position: (204787500, 95250000)
+[board_modifier.py:83]: Setting D55 footprint position: (199707500, 92220000)
+[board_modifier.py:96]: Getting D55 footprint position: (199707500, 92220000)
+[board_modifier.py:96]: Getting S56 footprint position: (223837500, 95250000)
+[board_modifier.py:83]: Setting D56 footprint position: (218757500, 92220000)
+[board_modifier.py:96]: Getting D56 footprint position: (218757500, 92220000)
+[board_modifier.py:96]: Getting S57 footprint position: (242887500, 95250000)
+[board_modifier.py:83]: Setting D57 footprint position: (237807500, 92220000)
+[board_modifier.py:96]: Getting D57 footprint position: (237807500, 92220000)
+[board_modifier.py:96]: Getting S58 footprint position: (261937500, 95250000)
+[board_modifier.py:83]: Setting D58 footprint position: (256857500, 92220000)
+[board_modifier.py:96]: Getting D58 footprint position: (256857500, 92220000)
+[board_modifier.py:96]: Getting S59 footprint position: (292893750, 95250000)
+[board_modifier.py:83]: Setting D59 footprint position: (287813750, 92220000)
+[board_modifier.py:96]: Getting D59 footprint position: (287813750, 92220000)
+[board_modifier.py:96]: Getting S6 footprint position: (133350000, 38100000)
+[board_modifier.py:83]: Setting D6 footprint position: (128270000, 35070000)
+[board_modifier.py:96]: Getting D6 footprint position: (128270000, 35070000)
+[board_modifier.py:96]: Getting S60 footprint position: (323850000, 95250000)
+[board_modifier.py:83]: Setting D60 footprint position: (318770000, 92220000)
+[board_modifier.py:96]: Getting D60 footprint position: (318770000, 92220000)
+[board_modifier.py:96]: Getting S61 footprint position: (50006250, 114300000)
+[board_modifier.py:83]: Setting D61 footprint position: (44926250, 111270000)
+[board_modifier.py:96]: Getting D61 footprint position: (44926250, 111270000)
+[board_modifier.py:96]: Getting S62 footprint position: (80962500, 114300000)
+[board_modifier.py:83]: Setting D62 footprint position: (75882500, 111270000)
+[board_modifier.py:96]: Getting D62 footprint position: (75882500, 111270000)
+[board_modifier.py:96]: Getting S63 footprint position: (100012500, 114300000)
+[board_modifier.py:83]: Setting D63 footprint position: (94932500, 111270000)
+[board_modifier.py:96]: Getting D63 footprint position: (94932500, 111270000)
+[board_modifier.py:96]: Getting S64 footprint position: (119062500, 114300000)
+[board_modifier.py:83]: Setting D64 footprint position: (113982500, 111270000)
+[board_modifier.py:96]: Getting D64 footprint position: (113982500, 111270000)
+[board_modifier.py:96]: Getting S65 footprint position: (138112500, 114300000)
+[board_modifier.py:83]: Setting D65 footprint position: (133032500, 111270000)
+[board_modifier.py:96]: Getting D65 footprint position: (133032500, 111270000)
+[board_modifier.py:96]: Getting S66 footprint position: (157162500, 114300000)
+[board_modifier.py:83]: Setting D66 footprint position: (152082500, 111270000)
+[board_modifier.py:96]: Getting D66 footprint position: (152082500, 111270000)
+[board_modifier.py:96]: Getting S67 footprint position: (176212500, 114300000)
+[board_modifier.py:83]: Setting D67 footprint position: (171132500, 111270000)
+[board_modifier.py:96]: Getting D67 footprint position: (171132500, 111270000)
+[board_modifier.py:96]: Getting S68 footprint position: (195262500, 114300000)
+[board_modifier.py:83]: Setting D68 footprint position: (190182500, 111270000)
+[board_modifier.py:96]: Getting D68 footprint position: (190182500, 111270000)
+[board_modifier.py:96]: Getting S69 footprint position: (214312500, 114300000)
+[board_modifier.py:83]: Setting D69 footprint position: (209232500, 111270000)
+[board_modifier.py:96]: Getting D69 footprint position: (209232500, 111270000)
+[board_modifier.py:96]: Getting S7 footprint position: (152400000, 38100000)
+[board_modifier.py:83]: Setting D7 footprint position: (147320000, 35070000)
+[board_modifier.py:96]: Getting D7 footprint position: (147320000, 35070000)
+[board_modifier.py:96]: Getting S70 footprint position: (233362500, 114300000)
+[board_modifier.py:83]: Setting D70 footprint position: (228282500, 111270000)
+[board_modifier.py:96]: Getting D70 footprint position: (228282500, 111270000)
+[board_modifier.py:96]: Getting S71 footprint position: (252412500, 114300000)
+[board_modifier.py:83]: Setting D71 footprint position: (247332500, 111270000)
+[board_modifier.py:96]: Getting D71 footprint position: (247332500, 111270000)
+[board_modifier.py:96]: Getting S72 footprint position: (278606250, 114300000)
+[board_modifier.py:83]: Setting D72 footprint position: (273526250, 111270000)
+[board_modifier.py:96]: Getting D72 footprint position: (273526250, 111270000)
+[board_modifier.py:96]: Getting S73 footprint position: (304800000, 114300000)
+[board_modifier.py:83]: Setting D73 footprint position: (299720000, 111270000)
+[board_modifier.py:96]: Getting D73 footprint position: (299720000, 111270000)
+[board_modifier.py:96]: Getting S74 footprint position: (323850000, 114300000)
+[board_modifier.py:83]: Setting D74 footprint position: (318770000, 111270000)
+[board_modifier.py:96]: Getting D74 footprint position: (318770000, 111270000)
+[board_modifier.py:96]: Getting S75 footprint position: (38100000, 133350000)
+[board_modifier.py:83]: Setting D75 footprint position: (33020000, 130320000)
+[board_modifier.py:96]: Getting D75 footprint position: (33020000, 130320000)
+[board_modifier.py:96]: Getting S76 footprint position: (57150000, 133350000)
+[board_modifier.py:83]: Setting D76 footprint position: (52070000, 130320000)
+[board_modifier.py:96]: Getting D76 footprint position: (52070000, 130320000)
+[board_modifier.py:96]: Getting S77 footprint position: (76200000, 133350000)
+[board_modifier.py:83]: Setting D77 footprint position: (71120000, 130320000)
+[board_modifier.py:96]: Getting D77 footprint position: (71120000, 130320000)
+[board_modifier.py:96]: Getting S78 footprint position: (97631250, 133350000)
+[board_modifier.py:83]: Setting D78 footprint position: (92551250, 130320000)
+[board_modifier.py:96]: Getting D78 footprint position: (92551250, 130320000)
+[board_modifier.py:96]: Getting S79 footprint position: (169068750, 133350000)
+[board_modifier.py:83]: Setting D79 footprint position: (163988750, 130320000)
+[board_modifier.py:96]: Getting D79 footprint position: (163988750, 130320000)
+[board_modifier.py:96]: Getting S8 footprint position: (171450000, 38100000)
+[board_modifier.py:83]: Setting D8 footprint position: (166370000, 35070000)
+[board_modifier.py:96]: Getting D8 footprint position: (166370000, 35070000)
+[board_modifier.py:96]: Getting S80 footprint position: (240506250, 133350000)
+[board_modifier.py:83]: Setting D80 footprint position: (235426250, 130320000)
+[board_modifier.py:96]: Getting D80 footprint position: (235426250, 130320000)
+[board_modifier.py:96]: Getting S81 footprint position: (261937500, 133350000)
+[board_modifier.py:83]: Setting D81 footprint position: (256857500, 130320000)
+[board_modifier.py:96]: Getting D81 footprint position: (256857500, 130320000)
+[board_modifier.py:96]: Getting S82 footprint position: (285750000, 133350000)
+[board_modifier.py:83]: Setting D82 footprint position: (280670000, 130320000)
+[board_modifier.py:96]: Getting D82 footprint position: (280670000, 130320000)
+[board_modifier.py:96]: Getting S83 footprint position: (304800000, 133350000)
+[board_modifier.py:83]: Setting D83 footprint position: (299720000, 130320000)
+[board_modifier.py:96]: Getting D83 footprint position: (299720000, 130320000)
+[board_modifier.py:96]: Getting S84 footprint position: (323850000, 133350000)
+[board_modifier.py:83]: Setting D84 footprint position: (318770000, 130320000)
+[board_modifier.py:96]: Getting D84 footprint position: (318770000, 130320000)
+[board_modifier.py:96]: Getting S9 footprint position: (190500000, 38100000)
+[board_modifier.py:83]: Setting D9 footprint position: (185420000, 35070000)
+[board_modifier.py:96]: Getting D9 footprint position: (185420000, 35070000)
+[board_modifier.py:96]: Getting S84 footprint position: (323850000, 133350000)
+[board_modifier.py:63]: Searching for LED84 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED84 footprint position: (322850000, 138450000)
+[board_modifier.py:96]: Getting LED84 footprint position: (322850000, 138450000)
+[board_modifier.py:96]: Getting S83 footprint position: (304800000, 133350000)
+[board_modifier.py:63]: Searching for LED83 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED83 footprint position: (303800000, 138450000)
+[board_modifier.py:96]: Getting LED83 footprint position: (303800000, 138450000)
+[board_modifier.py:96]: Getting S82 footprint position: (285750000, 133350000)
+[board_modifier.py:63]: Searching for LED82 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED82 footprint position: (284750000, 138450000)
+[board_modifier.py:96]: Getting LED82 footprint position: (284750000, 138450000)
+[board_modifier.py:96]: Getting S81 footprint position: (261937500, 133350000)
+[board_modifier.py:63]: Searching for LED81 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED81 footprint position: (260937500, 138450000)
+[board_modifier.py:96]: Getting LED81 footprint position: (260937500, 138450000)
+[board_modifier.py:96]: Getting S80 footprint position: (240506250, 133350000)
+[board_modifier.py:63]: Searching for LED80 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED80 footprint position: (239506250, 138450000)
+[board_modifier.py:96]: Getting LED80 footprint position: (239506250, 138450000)
+[board_modifier.py:96]: Getting S79 footprint position: (169068750, 133350000)
+[board_modifier.py:63]: Searching for LED79 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED79 footprint position: (168068750, 138450000)
+[board_modifier.py:96]: Getting LED79 footprint position: (168068750, 138450000)
+[board_modifier.py:96]: Getting S78 footprint position: (97631250, 133350000)
+[board_modifier.py:63]: Searching for LED78 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED78 footprint position: (96631250, 138450000)
+[board_modifier.py:96]: Getting LED78 footprint position: (96631250, 138450000)
+[board_modifier.py:96]: Getting S77 footprint position: (76200000, 133350000)
+[board_modifier.py:63]: Searching for LED77 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED77 footprint position: (75200000, 138450000)
+[board_modifier.py:96]: Getting LED77 footprint position: (75200000, 138450000)
+[board_modifier.py:96]: Getting S76 footprint position: (57150000, 133350000)
+[board_modifier.py:63]: Searching for LED76 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED76 footprint position: (56150000, 138450000)
+[board_modifier.py:96]: Getting LED76 footprint position: (56150000, 138450000)
+[board_modifier.py:96]: Getting S75 footprint position: (38100000, 133350000)
+[board_modifier.py:63]: Searching for LED75 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED75 footprint position: (37100000, 138450000)
+[board_modifier.py:96]: Getting LED75 footprint position: (37100000, 138450000)
+[board_modifier.py:96]: Getting S74 footprint position: (323850000, 114300000)
+[board_modifier.py:63]: Searching for LED74 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED74 footprint position: (322850000, 119400000)
+[board_modifier.py:96]: Getting LED74 footprint position: (322850000, 119400000)
+[board_modifier.py:96]: Getting S73 footprint position: (304800000, 114300000)
+[board_modifier.py:63]: Searching for LED73 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED73 footprint position: (303800000, 119400000)
+[board_modifier.py:96]: Getting LED73 footprint position: (303800000, 119400000)
+[board_modifier.py:96]: Getting S72 footprint position: (278606250, 114300000)
+[board_modifier.py:63]: Searching for LED72 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED72 footprint position: (277606250, 119400000)
+[board_modifier.py:96]: Getting LED72 footprint position: (277606250, 119400000)
+[board_modifier.py:96]: Getting S71 footprint position: (252412500, 114300000)
+[board_modifier.py:63]: Searching for LED71 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED71 footprint position: (251412500, 119400000)
+[board_modifier.py:96]: Getting LED71 footprint position: (251412500, 119400000)
+[board_modifier.py:96]: Getting S70 footprint position: (233362500, 114300000)
+[board_modifier.py:63]: Searching for LED70 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED70 footprint position: (232362500, 119400000)
+[board_modifier.py:96]: Getting LED70 footprint position: (232362500, 119400000)
+[board_modifier.py:96]: Getting S69 footprint position: (214312500, 114300000)
+[board_modifier.py:63]: Searching for LED69 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED69 footprint position: (213312500, 119400000)
+[board_modifier.py:96]: Getting LED69 footprint position: (213312500, 119400000)
+[board_modifier.py:96]: Getting S68 footprint position: (195262500, 114300000)
+[board_modifier.py:63]: Searching for LED68 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED68 footprint position: (194262500, 119400000)
+[board_modifier.py:96]: Getting LED68 footprint position: (194262500, 119400000)
+[board_modifier.py:96]: Getting S67 footprint position: (176212500, 114300000)
+[board_modifier.py:63]: Searching for LED67 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED67 footprint position: (175212500, 119400000)
+[board_modifier.py:96]: Getting LED67 footprint position: (175212500, 119400000)
+[board_modifier.py:96]: Getting S66 footprint position: (157162500, 114300000)
+[board_modifier.py:63]: Searching for LED66 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED66 footprint position: (156162500, 119400000)
+[board_modifier.py:96]: Getting LED66 footprint position: (156162500, 119400000)
+[board_modifier.py:96]: Getting S65 footprint position: (138112500, 114300000)
+[board_modifier.py:63]: Searching for LED65 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED65 footprint position: (137112500, 119400000)
+[board_modifier.py:96]: Getting LED65 footprint position: (137112500, 119400000)
+[board_modifier.py:96]: Getting S64 footprint position: (119062500, 114300000)
+[board_modifier.py:63]: Searching for LED64 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED64 footprint position: (118062500, 119400000)
+[board_modifier.py:96]: Getting LED64 footprint position: (118062500, 119400000)
+[board_modifier.py:96]: Getting S63 footprint position: (100012500, 114300000)
+[board_modifier.py:63]: Searching for LED63 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED63 footprint position: (99012500, 119400000)
+[board_modifier.py:96]: Getting LED63 footprint position: (99012500, 119400000)
+[board_modifier.py:96]: Getting S62 footprint position: (80962500, 114300000)
+[board_modifier.py:63]: Searching for LED62 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED62 footprint position: (79962500, 119400000)
+[board_modifier.py:96]: Getting LED62 footprint position: (79962500, 119400000)
+[board_modifier.py:96]: Getting S61 footprint position: (50006250, 114300000)
+[board_modifier.py:63]: Searching for LED61 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED61 footprint position: (49006250, 119400000)
+[board_modifier.py:96]: Getting LED61 footprint position: (49006250, 119400000)
+[board_modifier.py:96]: Getting S60 footprint position: (323850000, 95250000)
+[board_modifier.py:63]: Searching for LED60 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED60 footprint position: (322850000, 100350000)
+[board_modifier.py:96]: Getting LED60 footprint position: (322850000, 100350000)
+[board_modifier.py:96]: Getting S59 footprint position: (292893750, 95250000)
+[board_modifier.py:63]: Searching for LED59 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED59 footprint position: (291893750, 100350000)
+[board_modifier.py:96]: Getting LED59 footprint position: (291893750, 100350000)
+[board_modifier.py:96]: Getting S58 footprint position: (261937500, 95250000)
+[board_modifier.py:63]: Searching for LED58 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED58 footprint position: (260937500, 100350000)
+[board_modifier.py:96]: Getting LED58 footprint position: (260937500, 100350000)
+[board_modifier.py:96]: Getting S57 footprint position: (242887500, 95250000)
+[board_modifier.py:63]: Searching for LED57 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED57 footprint position: (241887500, 100350000)
+[board_modifier.py:96]: Getting LED57 footprint position: (241887500, 100350000)
+[board_modifier.py:96]: Getting S56 footprint position: (223837500, 95250000)
+[board_modifier.py:63]: Searching for LED56 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED56 footprint position: (222837500, 100350000)
+[board_modifier.py:96]: Getting LED56 footprint position: (222837500, 100350000)
+[board_modifier.py:96]: Getting S55 footprint position: (204787500, 95250000)
+[board_modifier.py:63]: Searching for LED55 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED55 footprint position: (203787500, 100350000)
+[board_modifier.py:96]: Getting LED55 footprint position: (203787500, 100350000)
+[board_modifier.py:96]: Getting S54 footprint position: (185737500, 95250000)
+[board_modifier.py:63]: Searching for LED54 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED54 footprint position: (184737500, 100350000)
+[board_modifier.py:96]: Getting LED54 footprint position: (184737500, 100350000)
+[board_modifier.py:96]: Getting S53 footprint position: (166687500, 95250000)
+[board_modifier.py:63]: Searching for LED53 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED53 footprint position: (165687500, 100350000)
+[board_modifier.py:96]: Getting LED53 footprint position: (165687500, 100350000)
+[board_modifier.py:96]: Getting S52 footprint position: (147637500, 95250000)
+[board_modifier.py:63]: Searching for LED52 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED52 footprint position: (146637500, 100350000)
+[board_modifier.py:96]: Getting LED52 footprint position: (146637500, 100350000)
+[board_modifier.py:96]: Getting S51 footprint position: (128587500, 95250000)
+[board_modifier.py:63]: Searching for LED51 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED51 footprint position: (127587500, 100350000)
+[board_modifier.py:96]: Getting LED51 footprint position: (127587500, 100350000)
+[board_modifier.py:96]: Getting S50 footprint position: (109537500, 95250000)
+[board_modifier.py:63]: Searching for LED50 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED50 footprint position: (108537500, 100350000)
+[board_modifier.py:96]: Getting LED50 footprint position: (108537500, 100350000)
+[board_modifier.py:96]: Getting S49 footprint position: (90487500, 95250000)
+[board_modifier.py:63]: Searching for LED49 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED49 footprint position: (89487500, 100350000)
+[board_modifier.py:96]: Getting LED49 footprint position: (89487500, 100350000)
+[board_modifier.py:96]: Getting S48 footprint position: (71437500, 95250000)
+[board_modifier.py:63]: Searching for LED48 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED48 footprint position: (70437500, 100350000)
+[board_modifier.py:96]: Getting LED48 footprint position: (70437500, 100350000)
+[board_modifier.py:96]: Getting S47 footprint position: (45243750, 95250000)
+[board_modifier.py:63]: Searching for LED47 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED47 footprint position: (44243750, 100350000)
+[board_modifier.py:96]: Getting LED47 footprint position: (44243750, 100350000)
+[board_modifier.py:96]: Getting S46 footprint position: (323850000, 76200000)
+[board_modifier.py:63]: Searching for LED46 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED46 footprint position: (322850000, 81300000)
+[board_modifier.py:96]: Getting LED46 footprint position: (322850000, 81300000)
+[board_modifier.py:96]: Getting S45 footprint position: (300037500, 76200000)
+[board_modifier.py:63]: Searching for LED45 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED45 footprint position: (299037500, 81300000)
+[board_modifier.py:96]: Getting LED45 footprint position: (299037500, 81300000)
+[board_modifier.py:96]: Getting S44 footprint position: (276225000, 76200000)
+[board_modifier.py:63]: Searching for LED44 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED44 footprint position: (275225000, 81300000)
+[board_modifier.py:96]: Getting LED44 footprint position: (275225000, 81300000)
+[board_modifier.py:96]: Getting S43 footprint position: (257175000, 76200000)
+[board_modifier.py:63]: Searching for LED43 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED43 footprint position: (256175000, 81300000)
+[board_modifier.py:96]: Getting LED43 footprint position: (256175000, 81300000)
+[board_modifier.py:96]: Getting S42 footprint position: (238125000, 76200000)
+[board_modifier.py:63]: Searching for LED42 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED42 footprint position: (237125000, 81300000)
+[board_modifier.py:96]: Getting LED42 footprint position: (237125000, 81300000)
+[board_modifier.py:96]: Getting S41 footprint position: (219075000, 76200000)
+[board_modifier.py:63]: Searching for LED41 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED41 footprint position: (218075000, 81300000)
+[board_modifier.py:96]: Getting LED41 footprint position: (218075000, 81300000)
+[board_modifier.py:96]: Getting S40 footprint position: (200025000, 76200000)
+[board_modifier.py:63]: Searching for LED40 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED40 footprint position: (199025000, 81300000)
+[board_modifier.py:96]: Getting LED40 footprint position: (199025000, 81300000)
+[board_modifier.py:96]: Getting S39 footprint position: (180975000, 76200000)
+[board_modifier.py:63]: Searching for LED39 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED39 footprint position: (179975000, 81300000)
+[board_modifier.py:96]: Getting LED39 footprint position: (179975000, 81300000)
+[board_modifier.py:96]: Getting S38 footprint position: (161925000, 76200000)
+[board_modifier.py:63]: Searching for LED38 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED38 footprint position: (160925000, 81300000)
+[board_modifier.py:96]: Getting LED38 footprint position: (160925000, 81300000)
+[board_modifier.py:96]: Getting S37 footprint position: (142875000, 76200000)
+[board_modifier.py:63]: Searching for LED37 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED37 footprint position: (141875000, 81300000)
+[board_modifier.py:96]: Getting LED37 footprint position: (141875000, 81300000)
+[board_modifier.py:96]: Getting S36 footprint position: (123825000, 76200000)
+[board_modifier.py:63]: Searching for LED36 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED36 footprint position: (122825000, 81300000)
+[board_modifier.py:96]: Getting LED36 footprint position: (122825000, 81300000)
+[board_modifier.py:96]: Getting S35 footprint position: (104775000, 76200000)
+[board_modifier.py:63]: Searching for LED35 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED35 footprint position: (103775000, 81300000)
+[board_modifier.py:96]: Getting LED35 footprint position: (103775000, 81300000)
+[board_modifier.py:96]: Getting S34 footprint position: (85725000, 76200000)
+[board_modifier.py:63]: Searching for LED34 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED34 footprint position: (84725000, 81300000)
+[board_modifier.py:96]: Getting LED34 footprint position: (84725000, 81300000)
+[board_modifier.py:96]: Getting S33 footprint position: (66675000, 76200000)
+[board_modifier.py:63]: Searching for LED33 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED33 footprint position: (65675000, 81300000)
+[board_modifier.py:96]: Getting LED33 footprint position: (65675000, 81300000)
+[board_modifier.py:96]: Getting S32 footprint position: (42862500, 76200000)
+[board_modifier.py:63]: Searching for LED32 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED32 footprint position: (41862500, 81300000)
+[board_modifier.py:96]: Getting LED32 footprint position: (41862500, 81300000)
+[board_modifier.py:96]: Getting S31 footprint position: (323850000, 57150000)
+[board_modifier.py:63]: Searching for LED31 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED31 footprint position: (322850000, 62250000)
+[board_modifier.py:96]: Getting LED31 footprint position: (322850000, 62250000)
+[board_modifier.py:96]: Getting S30 footprint position: (295275000, 57150000)
+[board_modifier.py:63]: Searching for LED30 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED30 footprint position: (294275000, 62250000)
+[board_modifier.py:96]: Getting LED30 footprint position: (294275000, 62250000)
+[board_modifier.py:96]: Getting S29 footprint position: (266700000, 57150000)
+[board_modifier.py:63]: Searching for LED29 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED29 footprint position: (265700000, 62250000)
+[board_modifier.py:96]: Getting LED29 footprint position: (265700000, 62250000)
+[board_modifier.py:96]: Getting S28 footprint position: (247650000, 57150000)
+[board_modifier.py:63]: Searching for LED28 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED28 footprint position: (246650000, 62250000)
+[board_modifier.py:96]: Getting LED28 footprint position: (246650000, 62250000)
+[board_modifier.py:96]: Getting S27 footprint position: (228600000, 57150000)
+[board_modifier.py:63]: Searching for LED27 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED27 footprint position: (227600000, 62250000)
+[board_modifier.py:96]: Getting LED27 footprint position: (227600000, 62250000)
+[board_modifier.py:96]: Getting S26 footprint position: (209550000, 57150000)
+[board_modifier.py:63]: Searching for LED26 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED26 footprint position: (208550000, 62250000)
+[board_modifier.py:96]: Getting LED26 footprint position: (208550000, 62250000)
+[board_modifier.py:96]: Getting S25 footprint position: (190500000, 57150000)
+[board_modifier.py:63]: Searching for LED25 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED25 footprint position: (189500000, 62250000)
+[board_modifier.py:96]: Getting LED25 footprint position: (189500000, 62250000)
+[board_modifier.py:96]: Getting S24 footprint position: (171450000, 57150000)
+[board_modifier.py:63]: Searching for LED24 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED24 footprint position: (170450000, 62250000)
+[board_modifier.py:96]: Getting LED24 footprint position: (170450000, 62250000)
+[board_modifier.py:96]: Getting S23 footprint position: (152400000, 57150000)
+[board_modifier.py:63]: Searching for LED23 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED23 footprint position: (151400000, 62250000)
+[board_modifier.py:96]: Getting LED23 footprint position: (151400000, 62250000)
+[board_modifier.py:96]: Getting S22 footprint position: (133350000, 57150000)
+[board_modifier.py:63]: Searching for LED22 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED22 footprint position: (132350000, 62250000)
+[board_modifier.py:96]: Getting LED22 footprint position: (132350000, 62250000)
+[board_modifier.py:96]: Getting S21 footprint position: (114300000, 57150000)
+[board_modifier.py:63]: Searching for LED21 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED21 footprint position: (113300000, 62250000)
+[board_modifier.py:96]: Getting LED21 footprint position: (113300000, 62250000)
+[board_modifier.py:96]: Getting S20 footprint position: (95250000, 57150000)
+[board_modifier.py:63]: Searching for LED20 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED20 footprint position: (94250000, 62250000)
+[board_modifier.py:96]: Getting LED20 footprint position: (94250000, 62250000)
+[board_modifier.py:96]: Getting S19 footprint position: (76200000, 57150000)
+[board_modifier.py:63]: Searching for LED19 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED19 footprint position: (75200000, 62250000)
+[board_modifier.py:96]: Getting LED19 footprint position: (75200000, 62250000)
+[board_modifier.py:96]: Getting S18 footprint position: (57150000, 57150000)
+[board_modifier.py:63]: Searching for LED18 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED18 footprint position: (56150000, 62250000)
+[board_modifier.py:96]: Getting LED18 footprint position: (56150000, 62250000)
+[board_modifier.py:96]: Getting S17 footprint position: (38100000, 57150000)
+[board_modifier.py:63]: Searching for LED17 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED17 footprint position: (37100000, 62250000)
+[board_modifier.py:96]: Getting LED17 footprint position: (37100000, 62250000)
+[board_modifier.py:96]: Getting S16 footprint position: (323850000, 38100000)
+[board_modifier.py:63]: Searching for LED16 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED16 footprint position: (322850000, 43200000)
+[board_modifier.py:96]: Getting LED16 footprint position: (322850000, 43200000)
+[board_modifier.py:96]: Getting S15 footprint position: (304800000, 38100000)
+[board_modifier.py:63]: Searching for LED15 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED15 footprint position: (303800000, 43200000)
+[board_modifier.py:96]: Getting LED15 footprint position: (303800000, 43200000)
+[board_modifier.py:96]: Getting S14 footprint position: (285750000, 38100000)
+[board_modifier.py:63]: Searching for LED14 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED14 footprint position: (284750000, 43200000)
+[board_modifier.py:96]: Getting LED14 footprint position: (284750000, 43200000)
+[board_modifier.py:96]: Getting S13 footprint position: (266700000, 38100000)
+[board_modifier.py:63]: Searching for LED13 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED13 footprint position: (265700000, 43200000)
+[board_modifier.py:96]: Getting LED13 footprint position: (265700000, 43200000)
+[board_modifier.py:96]: Getting S12 footprint position: (247650000, 38100000)
+[board_modifier.py:63]: Searching for LED12 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED12 footprint position: (246650000, 43200000)
+[board_modifier.py:96]: Getting LED12 footprint position: (246650000, 43200000)
+[board_modifier.py:96]: Getting S11 footprint position: (228600000, 38100000)
+[board_modifier.py:63]: Searching for LED11 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED11 footprint position: (227600000, 43200000)
+[board_modifier.py:96]: Getting LED11 footprint position: (227600000, 43200000)
+[board_modifier.py:96]: Getting S10 footprint position: (209550000, 38100000)
+[board_modifier.py:63]: Searching for LED10 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED10 footprint position: (208550000, 43200000)
+[board_modifier.py:96]: Getting LED10 footprint position: (208550000, 43200000)
+[board_modifier.py:96]: Getting S9 footprint position: (190500000, 38100000)
+[board_modifier.py:63]: Searching for LED9 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED9 footprint position: (189500000, 43200000)
+[board_modifier.py:96]: Getting LED9 footprint position: (189500000, 43200000)
+[board_modifier.py:96]: Getting S8 footprint position: (171450000, 38100000)
+[board_modifier.py:63]: Searching for LED8 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED8 footprint position: (170450000, 43200000)
+[board_modifier.py:96]: Getting LED8 footprint position: (170450000, 43200000)
+[board_modifier.py:96]: Getting S7 footprint position: (152400000, 38100000)
+[board_modifier.py:63]: Searching for LED7 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED7 footprint position: (151400000, 43200000)
+[board_modifier.py:96]: Getting LED7 footprint position: (151400000, 43200000)
+[board_modifier.py:96]: Getting S6 footprint position: (133350000, 38100000)
+[board_modifier.py:63]: Searching for LED6 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED6 footprint position: (132350000, 43200000)
+[board_modifier.py:96]: Getting LED6 footprint position: (132350000, 43200000)
+[board_modifier.py:96]: Getting S5 footprint position: (114300000, 38100000)
+[board_modifier.py:63]: Searching for LED5 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED5 footprint position: (113300000, 43200000)
+[board_modifier.py:96]: Getting LED5 footprint position: (113300000, 43200000)
+[board_modifier.py:96]: Getting S4 footprint position: (95250000, 38100000)
+[board_modifier.py:63]: Searching for LED4 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED4 footprint position: (94250000, 43200000)
+[board_modifier.py:96]: Getting LED4 footprint position: (94250000, 43200000)
+[board_modifier.py:96]: Getting S3 footprint position: (76200000, 38100000)
+[board_modifier.py:63]: Searching for LED3 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED3 footprint position: (75200000, 43200000)
+[board_modifier.py:96]: Getting LED3 footprint position: (75200000, 43200000)
+[board_modifier.py:96]: Getting S2 footprint position: (57150000, 38100000)
+[board_modifier.py:63]: Searching for LED2 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED2 footprint position: (56150000, 43200000)
+[board_modifier.py:96]: Getting LED2 footprint position: (56150000, 43200000)
+[board_modifier.py:96]: Getting S1 footprint position: (38100000, 38100000)
+[board_modifier.py:63]: Searching for LED1 footprint in /home/scott/Documents/custom-keyboard/Schema/Keyboard/Keyboard.kicad_pcb
+[board_modifier.py:83]: Setting LED1 footprint position: (37100000, 43200000)
+[board_modifier.py:96]: Getting LED1 footprint position: (37100000, 43200000)
+[key_placer.py:361]: Routing S84 with D84
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S84:2' at (326450000, 139100000) with pad 'D84:2' at (318770000, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 139100000), (325900000, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(325900000, 139100000), (318770000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 139100000), (319320000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S83 with D83
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S83:2' at (307400000, 139100000) with pad 'D83:2' at (299720000, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(307400000, 139100000), (306850000, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(306850000, 139100000), (299720000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(307400000, 139100000), (300270000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S82 with D82
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S82:2' at (288350000, 139100000) with pad 'D82:2' at (280670000, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(288350000, 139100000), (287800000, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(287800000, 139100000), (280670000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(288350000, 139100000), (281220000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S81 with D81
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S81:2' at (264537500, 139100000) with pad 'D81:2' at (256857500, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(264537500, 139100000), (263987500, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(263987500, 139100000), (256857500, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(264537500, 139100000), (257407500, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S80 with D80
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S80:2' at (243106250, 139100000) with pad 'D80:2' at (235426250, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(243106250, 139100000), (242556250, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(242556250, 139100000), (235426250, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(243106250, 139100000), (235976250, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S79 with D79
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S79:2' at (171668750, 139100000) with pad 'D79:2' at (163988750, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(171668750, 139100000), (171118750, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(171118750, 139100000), (163988750, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(171668750, 139100000), (164538750, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S78 with D78
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S78:2' at (100231250, 139100000) with pad 'D78:2' at (92551250, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(100231250, 139100000), (99681250, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(99681250, 139100000), (92551250, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(100231250, 139100000), (93101250, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S77 with D77
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S77:2' at (78800000, 139100000) with pad 'D77:2' at (71120000, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78800000, 139100000), (78250000, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78250000, 139100000), (71120000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78800000, 139100000), (71670000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S76 with D76
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S76:2' at (59750000, 139100000) with pad 'D76:2' at (52070000, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59750000, 139100000), (59200000, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59200000, 139100000), (52070000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59750000, 139100000), (52620000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S75 with D75
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S75:2' at (40700000, 139100000) with pad 'D75:2' at (33020000, 131970000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40700000, 139100000), (40150000, 139100000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40150000, 139100000), (33020000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40700000, 139100000), (33570000, 131970000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S74 with D74
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S74:2' at (326450000, 120050000) with pad 'D74:2' at (318770000, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 120050000), (325900000, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(325900000, 120050000), (318770000, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 120050000), (319320000, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S73 with D73
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S73:2' at (307400000, 120050000) with pad 'D73:2' at (299720000, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(307400000, 120050000), (306850000, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(306850000, 120050000), (299720000, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(307400000, 120050000), (300270000, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S72 with D72
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S72:2' at (281206250, 120050000) with pad 'D72:2' at (273526250, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(281206250, 120050000), (280656250, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(280656250, 120050000), (273526250, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(281206250, 120050000), (274076250, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S71 with D71
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S71:2' at (255012500, 120050000) with pad 'D71:2' at (247332500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(255012500, 120050000), (254462500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(254462500, 120050000), (247332500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(255012500, 120050000), (247882500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S70 with D70
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S70:2' at (235962500, 120050000) with pad 'D70:2' at (228282500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(235962500, 120050000), (235412500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(235412500, 120050000), (228282500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(235962500, 120050000), (228832500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S69 with D69
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S69:2' at (216912500, 120050000) with pad 'D69:2' at (209232500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(216912500, 120050000), (216362500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(216362500, 120050000), (209232500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(216912500, 120050000), (209782500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S68 with D68
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S68:2' at (197862500, 120050000) with pad 'D68:2' at (190182500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(197862500, 120050000), (197312500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(197312500, 120050000), (190182500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(197862500, 120050000), (190732500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S67 with D67
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S67:2' at (178812500, 120050000) with pad 'D67:2' at (171132500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(178812500, 120050000), (178262500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(178262500, 120050000), (171132500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(178812500, 120050000), (171682500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S66 with D66
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S66:2' at (159762500, 120050000) with pad 'D66:2' at (152082500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(159762500, 120050000), (159212500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(159212500, 120050000), (152082500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(159762500, 120050000), (152632500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S65 with D65
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S65:2' at (140712500, 120050000) with pad 'D65:2' at (133032500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(140712500, 120050000), (140162500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(140162500, 120050000), (133032500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(140712500, 120050000), (133582500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S64 with D64
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S64:2' at (121662500, 120050000) with pad 'D64:2' at (113982500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(121662500, 120050000), (121112500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(121112500, 120050000), (113982500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(121662500, 120050000), (114532500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S63 with D63
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S63:2' at (102612500, 120050000) with pad 'D63:2' at (94932500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(102612500, 120050000), (102062500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(102062500, 120050000), (94932500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(102612500, 120050000), (95482500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S62 with D62
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S62:2' at (83562500, 120050000) with pad 'D62:2' at (75882500, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(83562500, 120050000), (83012500, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(83012500, 120050000), (75882500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(83562500, 120050000), (76432500, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S61 with D61
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S61:2' at (52606250, 120050000) with pad 'D61:2' at (44926250, 112920000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(52606250, 120050000), (52056250, 120050000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(52056250, 120050000), (44926250, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(52606250, 120050000), (45476250, 112920000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S60 with D60
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S60:2' at (326450000, 101000000) with pad 'D60:2' at (318770000, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 101000000), (325900000, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(325900000, 101000000), (318770000, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 101000000), (319320000, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S59 with D59
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S59:2' at (295493750, 101000000) with pad 'D59:2' at (287813750, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(295493750, 101000000), (294943750, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(294943750, 101000000), (287813750, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(295493750, 101000000), (288363750, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S58 with D58
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S58:2' at (264537500, 101000000) with pad 'D58:2' at (256857500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(264537500, 101000000), (263987500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(263987500, 101000000), (256857500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(264537500, 101000000), (257407500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S57 with D57
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S57:2' at (245487500, 101000000) with pad 'D57:2' at (237807500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(245487500, 101000000), (244937500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(244937500, 101000000), (237807500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(245487500, 101000000), (238357500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S56 with D56
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S56:2' at (226437500, 101000000) with pad 'D56:2' at (218757500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(226437500, 101000000), (225887500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(225887500, 101000000), (218757500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(226437500, 101000000), (219307500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S55 with D55
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S55:2' at (207387500, 101000000) with pad 'D55:2' at (199707500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(207387500, 101000000), (206837500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(206837500, 101000000), (199707500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(207387500, 101000000), (200257500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S54 with D54
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S54:2' at (188337500, 101000000) with pad 'D54:2' at (180657500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(188337500, 101000000), (187787500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(187787500, 101000000), (180657500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(188337500, 101000000), (181207500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S53 with D53
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S53:2' at (169287500, 101000000) with pad 'D53:2' at (161607500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(169287500, 101000000), (168737500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(168737500, 101000000), (161607500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(169287500, 101000000), (162157500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S52 with D52
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S52:2' at (150237500, 101000000) with pad 'D52:2' at (142557500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(150237500, 101000000), (149687500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(149687500, 101000000), (142557500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(150237500, 101000000), (143107500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S51 with D51
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S51:2' at (131187500, 101000000) with pad 'D51:2' at (123507500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(131187500, 101000000), (130637500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(130637500, 101000000), (123507500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(131187500, 101000000), (124057500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S50 with D50
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S50:2' at (112137500, 101000000) with pad 'D50:2' at (104457500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(112137500, 101000000), (111587500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(111587500, 101000000), (104457500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(112137500, 101000000), (105007500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S49 with D49
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S49:2' at (93087500, 101000000) with pad 'D49:2' at (85407500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(93087500, 101000000), (92537500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(92537500, 101000000), (85407500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(93087500, 101000000), (85957500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S48 with D48
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S48:2' at (74037500, 101000000) with pad 'D48:2' at (66357500, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(74037500, 101000000), (73487500, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(73487500, 101000000), (66357500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(74037500, 101000000), (66907500, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S47 with D47
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S47:2' at (47843750, 101000000) with pad 'D47:2' at (40163750, 93870000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(47843750, 101000000), (47293750, 101000000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(47293750, 101000000), (40163750, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(47843750, 101000000), (40713750, 93870000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S46 with D46
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S46:2' at (326450000, 81950000) with pad 'D46:2' at (318770000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 81950000), (325900000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(325900000, 81950000), (318770000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 81950000), (319320000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S45 with D45
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S45:2' at (302637500, 81950000) with pad 'D45:2' at (294957500, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(302637500, 81950000), (302087500, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(302087500, 81950000), (294957500, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(302637500, 81950000), (295507500, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S44 with D44
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S44:2' at (278825000, 81950000) with pad 'D44:2' at (271145000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(278825000, 81950000), (278275000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(278275000, 81950000), (271145000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(278825000, 81950000), (271695000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S43 with D43
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S43:2' at (259775000, 81950000) with pad 'D43:2' at (252095000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(259775000, 81950000), (259225000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(259225000, 81950000), (252095000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(259775000, 81950000), (252645000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S42 with D42
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S42:2' at (240725000, 81950000) with pad 'D42:2' at (233045000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(240725000, 81950000), (240175000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(240175000, 81950000), (233045000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(240725000, 81950000), (233595000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S41 with D41
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S41:2' at (221675000, 81950000) with pad 'D41:2' at (213995000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(221675000, 81950000), (221125000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(221125000, 81950000), (213995000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(221675000, 81950000), (214545000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S40 with D40
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S40:2' at (202625000, 81950000) with pad 'D40:2' at (194945000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(202625000, 81950000), (202075000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(202075000, 81950000), (194945000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(202625000, 81950000), (195495000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S39 with D39
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S39:2' at (183575000, 81950000) with pad 'D39:2' at (175895000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(183575000, 81950000), (183025000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(183025000, 81950000), (175895000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(183575000, 81950000), (176445000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S38 with D38
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S38:2' at (164525000, 81950000) with pad 'D38:2' at (156845000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(164525000, 81950000), (163975000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(163975000, 81950000), (156845000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(164525000, 81950000), (157395000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S37 with D37
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S37:2' at (145475000, 81950000) with pad 'D37:2' at (137795000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(145475000, 81950000), (144925000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(144925000, 81950000), (137795000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(145475000, 81950000), (138345000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S36 with D36
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S36:2' at (126425000, 81950000) with pad 'D36:2' at (118745000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(126425000, 81950000), (125875000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(125875000, 81950000), (118745000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(126425000, 81950000), (119295000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S35 with D35
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S35:2' at (107375000, 81950000) with pad 'D35:2' at (99695000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(107375000, 81950000), (106825000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(106825000, 81950000), (99695000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(107375000, 81950000), (100245000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S34 with D34
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S34:2' at (88325000, 81950000) with pad 'D34:2' at (80645000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(88325000, 81950000), (87775000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(87775000, 81950000), (80645000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(88325000, 81950000), (81195000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S33 with D33
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S33:2' at (69275000, 81950000) with pad 'D33:2' at (61595000, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(69275000, 81950000), (68725000, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(68725000, 81950000), (61595000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(69275000, 81950000), (62145000, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S32 with D32
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S32:2' at (45462500, 81950000) with pad 'D32:2' at (37782500, 74820000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(45462500, 81950000), (44912500, 81950000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(44912500, 81950000), (37782500, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(45462500, 81950000), (38332500, 74820000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S31 with D31
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S31:2' at (326450000, 62900000) with pad 'D31:2' at (318770000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 62900000), (325900000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(325900000, 62900000), (318770000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 62900000), (319320000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S30 with D30
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S30:2' at (297875000, 62900000) with pad 'D30:2' at (290195000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(297875000, 62900000), (297325000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(297325000, 62900000), (290195000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(297875000, 62900000), (290745000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S29 with D29
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S29:2' at (269300000, 62900000) with pad 'D29:2' at (261620000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(269300000, 62900000), (268750000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(268750000, 62900000), (261620000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(269300000, 62900000), (262170000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S28 with D28
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S28:2' at (250250000, 62900000) with pad 'D28:2' at (242570000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(250250000, 62900000), (249700000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(249700000, 62900000), (242570000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(250250000, 62900000), (243120000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S27 with D27
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S27:2' at (231200000, 62900000) with pad 'D27:2' at (223520000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(231200000, 62900000), (230650000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(230650000, 62900000), (223520000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(231200000, 62900000), (224070000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S26 with D26
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S26:2' at (212150000, 62900000) with pad 'D26:2' at (204470000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(212150000, 62900000), (211600000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(211600000, 62900000), (204470000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(212150000, 62900000), (205020000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S25 with D25
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S25:2' at (193100000, 62900000) with pad 'D25:2' at (185420000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(193100000, 62900000), (192550000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(192550000, 62900000), (185420000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(193100000, 62900000), (185970000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S24 with D24
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S24:2' at (174050000, 62900000) with pad 'D24:2' at (166370000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(174050000, 62900000), (173500000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(173500000, 62900000), (166370000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(174050000, 62900000), (166920000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S23 with D23
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S23:2' at (155000000, 62900000) with pad 'D23:2' at (147320000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(155000000, 62900000), (154450000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(154450000, 62900000), (147320000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(155000000, 62900000), (147870000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S22 with D22
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S22:2' at (135950000, 62900000) with pad 'D22:2' at (128270000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(135950000, 62900000), (135400000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(135400000, 62900000), (128270000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(135950000, 62900000), (128820000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S21 with D21
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S21:2' at (116900000, 62900000) with pad 'D21:2' at (109220000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(116900000, 62900000), (116350000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(116350000, 62900000), (109220000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(116900000, 62900000), (109770000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S20 with D20
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S20:2' at (97850000, 62900000) with pad 'D20:2' at (90170000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(97850000, 62900000), (97300000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(97300000, 62900000), (90170000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(97850000, 62900000), (90720000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S19 with D19
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S19:2' at (78800000, 62900000) with pad 'D19:2' at (71120000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78800000, 62900000), (78250000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78250000, 62900000), (71120000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78800000, 62900000), (71670000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S18 with D18
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S18:2' at (59750000, 62900000) with pad 'D18:2' at (52070000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59750000, 62900000), (59200000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59200000, 62900000), (52070000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59750000, 62900000), (52620000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S17 with D17
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S17:2' at (40700000, 62900000) with pad 'D17:2' at (33020000, 55770000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40700000, 62900000), (40150000, 62900000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40150000, 62900000), (33020000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40700000, 62900000), (33570000, 55770000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S16 with D16
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S16:2' at (326450000, 43850000) with pad 'D16:2' at (318770000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 43850000), (325900000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(325900000, 43850000), (318770000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(326450000, 43850000), (319320000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S15 with D15
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S15:2' at (307400000, 43850000) with pad 'D15:2' at (299720000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(307400000, 43850000), (306850000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(306850000, 43850000), (299720000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(307400000, 43850000), (300270000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S14 with D14
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S14:2' at (288350000, 43850000) with pad 'D14:2' at (280670000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(288350000, 43850000), (287800000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(287800000, 43850000), (280670000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(288350000, 43850000), (281220000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S13 with D13
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S13:2' at (269300000, 43850000) with pad 'D13:2' at (261620000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(269300000, 43850000), (268750000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(268750000, 43850000), (261620000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(269300000, 43850000), (262170000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S12 with D12
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S12:2' at (250250000, 43850000) with pad 'D12:2' at (242570000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(250250000, 43850000), (249700000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(249700000, 43850000), (242570000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(250250000, 43850000), (243120000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S11 with D11
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S11:2' at (231200000, 43850000) with pad 'D11:2' at (223520000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(231200000, 43850000), (230650000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(230650000, 43850000), (223520000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(231200000, 43850000), (224070000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S10 with D10
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S10:2' at (212150000, 43850000) with pad 'D10:2' at (204470000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(212150000, 43850000), (211600000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(211600000, 43850000), (204470000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(212150000, 43850000), (205020000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S9 with D9
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S9:2' at (193100000, 43850000) with pad 'D9:2' at (185420000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(193100000, 43850000), (192550000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(192550000, 43850000), (185420000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(193100000, 43850000), (185970000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S8 with D8
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S8:2' at (174050000, 43850000) with pad 'D8:2' at (166370000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(174050000, 43850000), (173500000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(173500000, 43850000), (166370000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(174050000, 43850000), (166920000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S7 with D7
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S7:2' at (155000000, 43850000) with pad 'D7:2' at (147320000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(155000000, 43850000), (154450000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(154450000, 43850000), (147320000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(155000000, 43850000), (147870000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S6 with D6
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S6:2' at (135950000, 43850000) with pad 'D6:2' at (128270000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(135950000, 43850000), (135400000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(135400000, 43850000), (128270000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(135950000, 43850000), (128820000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S5 with D5
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S5:2' at (116900000, 43850000) with pad 'D5:2' at (109220000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(116900000, 43850000), (116350000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(116350000, 43850000), (109220000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(116900000, 43850000), (109770000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S4 with D4
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S4:2' at (97850000, 43850000) with pad 'D4:2' at (90170000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(97850000, 43850000), (97300000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(97300000, 43850000), (90170000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(97850000, 43850000), (90720000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S3 with D3
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S3:2' at (78800000, 43850000) with pad 'D3:2' at (71120000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78800000, 43850000), (78250000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78250000, 43850000), (71120000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(78800000, 43850000), (71670000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S2 with D2
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S2:2' at (59750000, 43850000) with pad 'D2:2' at (52070000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59750000, 43850000), (59200000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59200000, 43850000), (52070000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(59750000, 43850000), (52620000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:361]: Routing S1 with D1
+[key_placer.py:363]: Using internal autorouter method
+[board_modifier.py:433]: Routing at B.Cu layer
+[board_modifier.py:499]: Routing pad 'S1:2' at (40700000, 43850000) with pad 'D1:2' at (33020000, 36720000) using coordinate system rotated by 0 degree(s)
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40700000, 43850000), (40150000, 43850000)]
+[board_modifier.py:367]: Track added
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40150000, 43850000), (33020000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[board_modifier.py:362]: Adding track segment (B.Cu): [(40700000, 43850000), (33570000, 36720000)]
+[board_modifier.py:370]: Could not add track segment due to detected collision
+[key_placer.py:395]: Removing dangling tracks
+[key_placer.py:407]: Removing 238dcb8f-add0-4d1d-a204-50c8182ae743
+[key_placer.py:407]: Removing 7e347e4a-5549-41b8-99d3-a447856b55ca
+[key_placer.py:407]: Removing 147b6dea-ae34-4428-a431-ef59e8fa85f2
+[key_placer.py:407]: Removing 62aa3f40-efef-4aa1-ad11-483e4ca26ba8
+[key_placer.py:407]: Removing 17a9cddb-4fc9-4285-9d8b-60cedd2e1be4
+[key_placer.py:407]: Removing bddb3d7d-a33e-463f-9fc5-486b04e6965c
+[key_placer.py:407]: Removing 5dade95e-4c26-40af-bc47-e56b577d9d4d
+[key_placer.py:407]: Removing 84b4c1a4-abff-4e97-8643-ae04e0bf3021
+[key_placer.py:407]: Removing c7636a37-ade5-4aad-9396-a0b78ffec694
+[key_placer.py:407]: Removing 4d787b14-8e39-425d-b202-32094773035f
+[key_placer.py:407]: Removing 71846b69-646d-462d-a3da-afe4d59a884b
+[key_placer.py:407]: Removing 22756371-a7c4-4d01-9117-e11bc835842e
+[key_placer.py:407]: Removing 1cb9a7e1-5c38-41aa-b86d-b3a4c16fcecb
+[key_placer.py:407]: Removing 23547c30-1a1e-4005-a696-bdc9a51d4b49
+[key_placer.py:407]: Removing faec28b4-9e3c-4d65-8c71-b92da72cc71a
+[key_placer.py:407]: Removing 39344eb4-74ee-4465-9295-627b605a74df
+[key_placer.py:407]: Removing 36cbfaa5-48fb-4536-be97-88f902041b76
+[key_placer.py:407]: Removing 57d4dc0f-425a-4720-b555-e404bdc8e55f
+[key_placer.py:407]: Removing 34250075-6232-485a-9bbd-5054078df184
+[key_placer.py:407]: Removing fe4c80c3-0d4c-422f-8bdc-2610f8921089
+[key_placer.py:407]: Removing 6ab9a4ac-240f-4fe2-bb83-c04cfba87423
+[key_placer.py:407]: Removing 37e98098-ada3-41e3-893a-85850907e3e0
+[key_placer.py:407]: Removing 9f9421a7-4234-413f-8183-5566dd092cc4
+[key_placer.py:407]: Removing f1dbf788-8d8f-4cff-8a42-34d06f06c1db
+[key_placer.py:407]: Removing d8a24a5b-e249-4bff-aa8d-7e3c6d8ac6aa
+[key_placer.py:407]: Removing baa0adc5-2caa-4cfd-b574-9be04e3c8267
+[key_placer.py:407]: Removing 643c42ab-c333-46d5-bb8a-cb931805e879
+[key_placer.py:407]: Removing 83fe0bc4-a83e-4b8a-b1c5-ccc58fd99a45
+[key_placer.py:407]: Removing 149df020-f91f-48dc-9b1f-fd2c82f35116
+[key_placer.py:407]: Removing 59101308-a3a3-48c3-8d75-2b2fe47d7adc
+[key_placer.py:407]: Removing b35a0127-c788-489d-af09-eb106b873a7c
+[key_placer.py:407]: Removing a47c3cfa-05fb-4818-8d2f-660412adf337
+[key_placer.py:407]: Removing c0f8bfbb-1776-4d80-be48-fa6233aae99a
+[key_placer.py:407]: Removing 9f219227-f75b-4370-bb28-c2260b4f9fb3
+[key_placer.py:407]: Removing d1c67f15-c6dc-4469-b7fb-961c15b11b1c
+[key_placer.py:407]: Removing 365c9129-e018-4534-804e-32a84633d745
+[key_placer.py:407]: Removing f2083f10-756b-4dc9-9526-60af55465336
+[key_placer.py:407]: Removing fc1fb2e5-7416-4279-8c0d-6fd1adb46ad4
+[key_placer.py:407]: Removing a93dde0c-dfa4-41ba-b277-06654535d024
+[key_placer.py:407]: Removing d3db59e1-1c99-4750-bc43-53e0134598db
+[key_placer.py:407]: Removing 5fa5a944-63f8-48fc-88ca-11405b6ff364
+[key_placer.py:407]: Removing a044a1ac-93ea-4ae6-99ad-1864e3398d78
+[key_placer.py:407]: Removing 216e3b59-9488-44be-839e-b4d147d6a1a0
+[key_placer.py:407]: Removing 4dd80628-e6e5-442c-9faa-baa4401cbd05
+[key_placer.py:407]: Removing ea86b946-f097-488a-be6e-dbee0fc07d40
+[key_placer.py:407]: Removing 89e0d78b-1726-4ee4-8f19-311de9e06118
+[key_placer.py:407]: Removing 38133d65-ed16-4cdd-b98d-6247df5fcaa9
+[key_placer.py:407]: Removing e452fed6-c46b-4dc1-94d0-28b6f7df5cc1
+[key_placer.py:407]: Removing c244bf02-04af-4d44-be42-195fb24dc67c
+[key_placer.py:407]: Removing 2701a6d5-482d-4fb9-8dc0-9c633d3780d1
+[key_placer.py:407]: Removing bbc5a0ad-1a4d-4a2f-84ea-4785c2df14f4
+[key_placer.py:407]: Removing b3a79b60-cc21-4858-960f-f714a1464de3
+[key_placer.py:407]: Removing 4c6bd68f-07e9-4f4d-b689-b555f2049b0b
+[key_placer.py:407]: Removing e94a25ee-0b11-47c9-a832-3e93887d92aa
+[key_placer.py:407]: Removing 077b0a46-b477-47e3-9f4d-ef782792a1ab
+[key_placer.py:407]: Removing 182b0ca6-b146-4fd9-920d-2dd54b326058
+[key_placer.py:407]: Removing 86d9c71e-86a5-43ad-8de1-55d377630da7
+[key_placer.py:407]: Removing e9000b43-f7a1-4fd8-938b-f857dd73f871
+[key_placer.py:407]: Removing 671bb427-82bd-4526-94df-a81fca6b70c2
+[key_placer.py:407]: Removing c9f260e4-357b-4af0-9edf-923e70c9f549
+[key_placer.py:407]: Removing 231d6245-647d-4c0b-8456-9ccade19a13d
+[key_placer.py:407]: Removing 14086928-8748-45c1-a6c9-0cb83fe5bf85
+[key_placer.py:407]: Removing b3f1f3b2-2264-4c51-86b6-a8d63dae2eb3
+[key_placer.py:407]: Removing 2aff0fad-6efa-41d3-b2c2-01a1a6b1fbaa
+[key_placer.py:407]: Removing 385133fa-2bb2-4860-bb53-4aed1fdbaba7
+[key_placer.py:407]: Removing ce5676be-0246-41e6-8d77-022b09c36fc4
+[key_placer.py:407]: Removing b5304f96-01cc-46c2-8eeb-88c373e1f5ef
+[key_placer.py:407]: Removing f903a07e-e5e4-4624-8b99-3d9fe13e4a73
+[key_placer.py:407]: Removing fa4ab56d-ea90-4cb6-8d3d-940afcf8c69a
+[key_placer.py:407]: Removing 7022dded-e8c4-4ec3-b81c-14e62249e6fc
+[key_placer.py:407]: Removing f2837ad6-9d30-4400-9538-63ad720108ae
+[key_placer.py:407]: Removing b3446850-2915-4b80-a5ec-c6d4de5bac0c
+[key_placer.py:407]: Removing d2c37262-d03e-4be7-bdb0-c5840fd5cfa5
+[key_placer.py:407]: Removing e5884e84-ff59-4e4d-a932-6c265a73168b
+[key_placer.py:407]: Removing 2bbfaa1a-069d-4c2c-ace0-f071e62b7289
+[key_placer.py:407]: Removing 81c906e9-adc2-4ed8-9e74-9ce3f3f8c08a
+[key_placer.py:407]: Removing 4a84ba11-5ec1-40f7-a923-406fc755cdc5
+[key_placer.py:407]: Removing f28e3aa5-803f-473a-bec3-aa0b81d71bb2
+[key_placer.py:407]: Removing 6467277c-deed-43d4-927b-092019edef9b
+[key_placer.py:407]: Removing 0571ad65-7453-49f0-966c-61393b77937d
+[key_placer.py:407]: Removing a1249db8-92b4-41ca-87c8-bee4ab5dc426
+[key_placer.py:407]: Removing b05301e7-e604-4b39-9c09-9bf2891049ae
+[key_placer.py:407]: Removing c64244e3-73f2-4c8a-b975-7e21dc167987
+[key_placer.py:407]: Removing 38f4e05c-0f71-460f-b576-0f2ffe28638f
+[key_placer.py:395]: Removing dangling tracks

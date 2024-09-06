@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kicad-keyboard-parts")(type "KiCad")(uri "/home/scott/Documents/others/kicad-keyboard-parts.pretty")(options "")(descr ""))
+)
